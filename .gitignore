@@ -17,7 +17,6 @@ npm-debug.log
 /coverage/
 /declarations/
 /dist/
-/esnext/
 /examples/graph2d-generated/
 /examples/graph2d/examples.css
 /examples/graph2d/index.html
@@ -25,7 +24,4 @@ npm-debug.log
 /examples/timeline/examples.css
 /examples/timeline/index.html
 /gen/
-/peer/
-/standalone/
-/styles/
 /vis-timeline-0.0.0-no-version.tgz
