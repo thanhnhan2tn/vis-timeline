@@ -52,10 +52,7 @@
     "prepare": "husky install"
   },
   "lint-staged": {
-    "*.{js,ts,css,html,json,md,yml,yaml}": "prettier --write",
-    "*.{js,ts}": "eslint --fix",
-    ".*.{js,ts,css,html,json,md,yml,yaml}": "prettier --write",
-    ".*.{js,ts}": "eslint --fix"
+    "*.{js,ts,css,html,json,md,yml,yaml}": "prettier --write"
   },
   "peerDependencies": {
     "@egjs/hammerjs": "^2.0.0",
