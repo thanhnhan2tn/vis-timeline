@@ -5,7 +5,7 @@
  * Create a fully customizable, interactive timeline with items and ranges.
  *
  * @version 0.0.0-no-version
- * @date    2023-02-26T02:53:14.804Z
+ * @date    2023-03-26T10:26:03.790Z
  *
  * @copyright (c) 2011-2017 Almende B.V, http://almende.com
  * @copyright (c) 2017-2019 visjs contributors, https://github.com/visjs
@@ -11439,12 +11439,12 @@
           // hide all groups, removes them from the DOM
           const groups = this.groups;
           groupIds.forEach(groupId => {
-            groups[groupId].hide();
+            groups[groupId] && groups[groupId].hide();
           });
 
           // show the groups again, attach them to the DOM in correct order
           groupIds.forEach(groupId => {
-            groups[groupId].show();
+            groups[groupId] && groups[groupId].show();
           });
 
           this.groupIds = groupIds;
